@@ -39,7 +39,7 @@ body::before {
   pointer-events: none;
   background-image: radial-gradient(1.5px 1.5px at 35% 40%, rgba(255,255,255,0.8) 0, transparent 100%);
   background-size: 230px 230px;
-  opacity: 0.5;
+  opacity: 0.55;
 }
 
 button,
@@ -66,7 +66,7 @@ a {
 }
 
 .container {
-  width: min(1220px, 92%);
+  width: min(1240px, 92%);
   margin: 0 auto;
 }
 
@@ -114,7 +114,7 @@ a {
 }
 
 .brand-name {
-  font-size: clamp(2rem, 2vw, 3rem);
+  font-size: clamp(1.9rem, 2vw, 3rem);
   letter-spacing: -0.06em;
   font-weight: 700;
   color: var(--text);
@@ -187,7 +187,7 @@ a {
 .hero-section {
   position: relative;
   padding-top: 58px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 
 .stars {
@@ -253,9 +253,9 @@ a {
 }
 
 .hero-copy {
-  max-width: 960px;
-  margin-top: 32px;
-  font-size: clamp(1.2rem, 2vw, 2rem);
+  max-width: 980px;
+  margin-top: 34px;
+  font-size: clamp(1.25rem, 2vw, 2.05rem);
   line-height: 1.5;
   letter-spacing: -0.03em;
   color: rgba(236, 240, 248, 0.8);
@@ -300,7 +300,7 @@ a {
   flex-direction: column;
   gap: 18px;
   align-items: flex-start;
-  margin-top: 28px;
+  margin-top: 30px;
 }
 
 .security-link {
@@ -308,7 +308,7 @@ a {
   align-items: center;
   gap: 12px;
   color: rgba(236, 240, 248, 0.9);
-  font-size: 1.07rem;
+  font-size: 1.08rem;
 }
 
 .security-icon {
@@ -327,7 +327,7 @@ a {
 }
 
 .demo-window {
-  margin-top: 40px;
+  margin-top: 42px;
   border-radius: 18px;
   overflow: hidden;
 }
