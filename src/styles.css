@@ -38,7 +38,7 @@ function LandingPage() {
     <div className="page-shell">
       <header className="site-header">
         <div className="container nav-wrap">
-          <div className="brand-block" aria-label="Penligent origin clone">
+          <div className="brand-block" aria-label="PlanetA3 Agent home">
             <div className="pixel-logo" aria-hidden="true">
               <span />
               <span />
@@ -47,7 +47,10 @@ function LandingPage() {
               <span />
               <span />
             </div>
-            <span className="brand-name">penligent</span>
+            <div className="brand-text">
+              <span className="brand-name">PlanetA3</span>
+              <span className="brand-sub">Agent</span>
+            </div>
             <button type="button" className="menu-button" aria-label="Open menu">
               <span />
               <span />
@@ -112,7 +115,7 @@ function LandingPage() {
               <div className="window-bar">
                 <div className="window-title">
                   <span className="window-marker" aria-hidden="true" />
-                  <span>PENLIGENT</span>
+                  <span>PLANETA3</span>
                   <span className="slash">/</span>
                   <span className="window-muted">Interactive demo</span>
                 </div>
@@ -121,7 +124,7 @@ function LandingPage() {
               <div className="window-surface">
                 <div className="window-header-row">
                   <div className="prompt-badge">AA</div>
-                  <div className="prompt-title">penligent.ai</div>
+                  <div className="prompt-title">planetA3.ai</div>
                   <div className="sync-badge" aria-label="Refresh">⟳</div>
                 </div>
 
@@ -168,7 +171,7 @@ function LandingPage() {
             <div className="faq-list">
               {[
                 {
-                  q: 'What does Penligent do?',
+                  q: 'What does PlanetA3 Agent do?',
                   a: 'It helps security and engineering teams analyze AI systems, validate threats, and turn findings into operational actions.',
                 },
                 {
@@ -216,7 +219,10 @@ function DashboardPage() {
             <span />
             <span />
           </div>
-          <span className="brand-name">PlanetA3</span>
+          <div className="brand-text sidebar-brand-text">
+            <span className="brand-name">PlanetA3</span>
+            <span className="brand-sub">Agent</span>
+          </div>
         </div>
         <nav className="sidebar-nav">
           <a href="#">Overview</a>
